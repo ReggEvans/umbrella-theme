@@ -26,3 +26,22 @@ body {
   @media all and (max-width: 375px) {
     #showcase h1 {
       font-size: 4em; } }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ccc solid; }
+
+#team img {
+  margin-top: -50px; }
+
+#team .fa {
+  font-size: 25px; }
+
+#team .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #team .card:hover .fa {
+    color: #fff; }
+  #team .card:hover .text-muted {
+    color: #333 !important; }
