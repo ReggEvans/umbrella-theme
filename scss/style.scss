@@ -45,3 +45,37 @@ body {
             }
         }
 }
+
+// ABOUT STYLES
+// =============================
+
+.info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ccc solid ;
+}
+
+// TEAM STYLES
+// =============================
+#team {
+    img {
+        margin-top: -50px;
+    }
+
+    .fa {
+        font-size: 25px;
+    }
+
+    .card:hover {
+        background: $primary;
+        color: #fff;
+
+        .fa {
+            color: #fff;
+        }
+
+        .text-muted {
+            color: #333 !important;
+        }
+    }
+}
